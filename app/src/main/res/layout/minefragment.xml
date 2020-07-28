@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_minefragment"
+        android:background="@color/colorMain"
+        android:fitsSystemWindows="true" >
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/log_button"
+        android:layout_width="126dp"
+        android:layout_height="67dp"
+        android:drawableLeft="@drawable/login"
+        android:layout_below="@id/toolbar_minefragment"
+        android:text="登陆"
+        android:textSize="25dp"
+        android:theme="@android:style/Theme.Translucent"
+        android:background="@android:color/transparent"/>
+
+    <ImageView
+        android:id="@+id/cou"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/log_button"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/cou" />
+
+    <Button
+        android:id="@+id/reading_notes"
+        android:layout_below="@id/cou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="        阅读记录"
+        android:gravity="center_vertical"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/posting_note"
+        android:layout_below="@id/reading_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="        发帖记录"
+        android:gravity="center_vertical"
+        android:textSize="20sp"/>
+</RelativeLayout>

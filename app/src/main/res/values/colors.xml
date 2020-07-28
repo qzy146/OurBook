@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    /////@@@注释：需要的颜色定义在这里，注意命名规律，不要搞混了;
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorMain">#ffffff</color>
+    <color name="toastWarning">#FF3F3F</color>
+    <color name="toastInfo">#0EC6FF</color>
+    <color name="mainactivity_bottom_menucolor_1">#AAAAAA</color>
+    <color name="mainactivity_bottom_select">#8CDD3A</color>
+    <color name="mainactivity_bottom_unselect">#000000</color>
+    <color name="tianyi_blue">#66ccff</color>
+</resources>

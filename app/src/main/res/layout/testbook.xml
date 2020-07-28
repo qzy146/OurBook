@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_gravity="top|start"
+        android:layout_width="90dp"
+        android:layout_height="180dp"
+        android:id="@+id/test_book_image"/>
+    <TextView
+        android:layout_below="@+id/test_book_image"
+        android:singleLine="false"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_book_name"
+        android:layout_gravity="bottom|start"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/mainactivity_bottom_unselect"
+        android:layout_marginStart="20dp" />
+
+</RelativeLayout>

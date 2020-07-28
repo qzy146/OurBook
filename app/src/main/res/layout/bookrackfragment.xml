@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/bookrack_tilte"
+        android:layout_above="@+id/bottom_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp"
+        app:contentPaddingLeft="10dp"
+        app:contentPaddingRight="10dp"
+        android:paddingTop="20sp"
+        app:contentPaddingTop="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorMain"/>
+
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bookrack_tilte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar_bookrackfragment"
+            android:background="@color/tianyi_blue"
+            android:fitsSystemWindows="true">
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">佚名小说阅读</string>
+    <string name="bookrack_string_C">上一章</string>
+    <string name="bookrack_string_N">下一章</string>
+</resources>
